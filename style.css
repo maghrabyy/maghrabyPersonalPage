@@ -1,0 +1,289 @@
+/*  Fonts   */
+/*font-family: 'Gruppo', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Righteous', cursive;*/
+
+/*  Header   */
+/*  NavMenu   */
+nav{
+    min-height: 65px;
+    background-color: #363062;
+    position: relative;
+}
+
+nav ul{
+    list-style-type: none;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+
+nav li{
+    margin: 0 2.281em 0 3.2em;
+    float: left;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    border: #06283D solid;
+    padding: 0.8em 5.2em 0.8em 5.2em;
+    background-color:#06283D;
+    color: aliceblue;
+    border-radius: 7px;
+    font-family: 'Righteous', cursive;
+}
+
+nav a:hover{
+    color: #06283D;
+    background-color: #A5BECC;
+    border-color: #A5BECC;
+}
+
+/*  Body    */
+body{
+    margin: 0;
+    background-color:#06283D;
+}
+
+/*  Footer  */
+footer{
+    min-height: 80px;
+    background-color: #363062;
+    text-align: center;
+    padding-top: 1.4em;
+    border: #363062 solid;
+    border-radius: 15px 15px 0 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Gruppo', cursive;
+    margin: 0 2.2em 0 2.2em;
+}
+
+footer p{
+    margin-top: 2.3em;
+}
+
+/*  Main Components */
+hr{
+    background-color: transparent;
+    border-style: dotted none none none;
+    border-color: #243A73;
+    border-width: 10px; 
+    width: 30%;
+    margin: 50px auto 50px auto;
+}
+p{
+    font-family: 'Gruppo', cursive;
+    color: #A5BECC;
+}
+h2{
+    font-family: 'Righteous', cursive;
+    color: #1363DF;
+    font-size: 3.4rem;
+    margin-bottom: 2.9rem;
+    margin-top: 0;
+}
+
+h3{
+    font-family: 'Gruppo', cursive;
+    color: #A5BECC;
+    font-size: 2.3rem;
+}
+
+/*  Home Page   */
+/*  Top Container   */
+.topContainer{
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+    background-color: #363062;
+    height: 610px;
+}
+
+.topcloud{
+    width: 120px;
+    position: absolute;
+    top: 10%;
+    right: 20%;
+}
+
+.botcloud{
+    width: 120px;
+    position: absolute;
+    left: 24%;
+    top: 45%;
+}
+
+.mountainImg{
+    width: 750px;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+}
+
+.myName{
+    font-family: 'Righteous', cursive;
+    font-size: 350%;
+    color: #7C3E66;
+    margin-top: 50px;
+    line-height: 1;
+}
+
+.myJob{
+    font-family: 'Gruppo', cursive;
+    font-size: 225%;
+    font-weight: bold;
+    color: #A5BECC;
+
+}
+
+/*  Middle Container   */
+.middleContainer{
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+    background-color: #243A73;
+    height: 610px;
+}
+
+.flutterskill{
+    position: absolute;
+    left: 8%;
+    bottom: 2%;
+    height: 430px;
+}
+
+.webdevskill{
+    position: absolute;
+    right: 4%;
+}
+
+.skill1{
+    position: absolute;
+    left: 12%;
+    top: 20%;
+    
+}
+
+.skill2{
+    position: absolute;
+    right: 12%;
+    top: 20%;
+}
+
+/*  Bottom Container   */
+.botContainer{
+    text-align: center;
+    position: relative;
+    padding-top: 35px;
+    background-color: #06283D;
+    height: 650px;
+}
+
+.projectRow{
+    width: 50%;
+    margin: 0 auto 0 auto;
+    text-align: left;
+    line-height: 1.9;
+}
+
+.pmLogo{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.pmProject{
+    font-family: 'Righteous', cursive;
+    color: #7C3E66;
+    font-size: 2.4rem;
+    margin: 0;
+}
+
+.projectRow p{
+    font-weight: 600;
+}
+
+/* CV Page*/
+/*  CV Head */
+#maghPhoto{
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+.cvHead{
+    padding: 30px;
+    padding-bottom: 20px;
+    background-color: #363062;
+    border-radius: 0 0 40px 40px;
+    margin-bottom: 30px;
+}
+
+.cvHead h1{
+    font-family: 'Lobster Two', cursive;
+    color: #1363DF;
+}
+
+
+.cvHead a{
+    font-family: 'Gruppo', cursive;
+    text-decoration: none;
+    color: #A5BECC;
+    margin: 20px;
+    margin-left: 0;
+    font-weight: 700;
+}
+
+.cvHead a:hover{
+    color:#06283D;
+}
+
+.contactDetails img{
+    width: 30px;
+    float: left;
+    margin-right: 30px;
+}
+
+.cvHead h3{
+    font-size: 2rem;
+    line-height: 0.3;
+    width: 820px;
+}
+
+.cvHeadChild{
+    margin: 0 auto 0 auto;
+    width: 50%;
+}
+
+/*  CV Row   */
+.cvRow{
+    text-align: center;
+}
+
+.cvRow h2{
+    font-size: 2.6rem;
+}
+
+.cvRow h3{
+    font-size: 2rem;
+    line-height: 0.3;
+}
+
+.cvRow p{
+    font-size: 2rem;
+}
+
+.cvRow li{
+    font-size: 2rem;
+    font-family: 'Gruppo', cursive;
+    list-style-type: none;
+    color: #A5BECC;
+}
+
+/*  Portfolio Page  */
